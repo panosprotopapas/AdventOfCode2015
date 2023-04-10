@@ -60,7 +60,6 @@ for weapon in itertools.combinations(shop_inventory["weapons"], 1):
 print(f"Part 1: {min_cost}")
 
 # Part 2
-
 max_cost = 0
 for weapon in itertools.combinations(shop_inventory["weapons"], 1):
     for armor in itertools.combinations(shop_inventory["armor"], 1):
